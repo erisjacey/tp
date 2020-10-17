@@ -53,7 +53,7 @@
                   <StackPane fx:id="sessionListPanelPlaceholder" VBox.vgrow="ALWAYS"/>
                 </VBox>
               </content></Tab>
-            <Tab fx:id="currentSessionTab" text="Current Session" disable="true">
+            <Tab fx:id="currentSessionTab" text="Current Session">
               <content>
                 <VBox fx:id="sessionStudentList" styleClass="pane-with-border" minWidth="340" prefWidth="340" VBox.vgrow="ALWAYS">
                   <padding>

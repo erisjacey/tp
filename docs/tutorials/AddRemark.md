@@ -292,7 +292,7 @@ While the changes to code may be minimal, the test data will have to be updated 
 
 <div markdown="span" class="alert alert-warning">
 
-:exclamation: You must delete StudentList’s storage file located at `/data/addressbook.json` before running it! Not doing so will cause StudentList to default to an empty student list!
+:exclamation: You must delete StudentList’s storage file located at `/data/studentlist.json` before running it! Not doing so will cause StudentList to default to an empty student list!
 
 </div>
 

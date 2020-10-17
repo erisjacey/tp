@@ -122,7 +122,7 @@ public class LogicManagerTest {
         JsonSessionListStorage jsonSessionListStorage =
                 new JsonSessionListStorage(temporaryFolder.resolve("typicalSessionSessionList.json"));
         JsonAtasStorage atasStorage =
-                new JsonAtasStorage(temporaryFolder.resolve("addressBook.json"));
+                new JsonAtasStorage(temporaryFolder.resolve("atas.json"));
         JsonUserPrefsStorage userPrefsStorage = new JsonUserPrefsStorage(temporaryFolder.resolve("userPrefs.json"));
         StorageManager storage = new StorageManager(jsonSessionListStorage, atasStorage, userPrefsStorage);
         LogicManager logicManager = new LogicManager(model, storage);
